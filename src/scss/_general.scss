@@ -1,0 +1,17 @@
+.c-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+
+  // Screen Large
+  @media screen and (min-width: $breakpoint-screen-lg) {
+    max-width: $max-width-screen-lg * 0.9375;
+  }
+
+  // Screen Extra Larger
+  @media screen and (min-width: $breakpoint-screen-xl) {
+    max-width: $max-width-screen-xl * 0.9375;
+  }
+}
